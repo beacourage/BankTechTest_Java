@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/PrintStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/company/PrintStatementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="69" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -52,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="510">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,10 +120,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" />
       </list>
     </option>
   </component>
@@ -398,23 +405,11 @@
       <workItem from="1563296416157" duration="395000" />
       <workItem from="1563296894102" duration="253000" />
       <workItem from="1563359049829" duration="5006000" />
-      <workItem from="1563788825999" duration="9875000" />
+      <workItem from="1563788825999" duration="10191000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest - 2019.07.22 at 15h 33m 39s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.07.22 at 15h 33m 55s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.07.22 at 15h 48m 10s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.07.22 at 15h 51m 43s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest - 2019.07.22 at 15h 59m 38s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
@@ -433,9 +428,21 @@
     <history-entry file="IndividualTransactionsTest - 2019.07.22 at 16h 24m 20s.xml">
       <configuration name="IndividualTransactionsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrintStatementTest - 2019.07.22 at 17h 00m 47s.xml">
+      <configuration name="PrintStatementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintStatementTest - 2019.07.22 at 17h 00m 59s.xml">
+      <configuration name="PrintStatementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintStatementTest - 2019.07.22 at 17h 01m 09s.xml">
+      <configuration name="PrintStatementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintStatementTest - 2019.07.22 at 17h 03m 16s.xml">
+      <configuration name="PrintStatementTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45511000" />
+    <option name="totallyTimeSpent" value="45827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -448,7 +455,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1314181" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.24744377" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.24744377" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -469,7 +476,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" x="418" y="67" width="947" height="749" id="Run" order="9" visible="true" weight="0.20232274" />
+      <window_info active="true" anchor="right" x="418" y="67" width="947" height="749" id="Run" order="9" visible="true" weight="0.3374083" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,6 +573,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -573,17 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
