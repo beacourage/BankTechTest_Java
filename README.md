@@ -1,8 +1,8 @@
-# Bank - Three Classes - Java 
+# Bank Tech Test - Java 
 
 In order to practice Java, I will create a Command Line App in Intellij. 
 The program will consist of separate classes that can be easily justified, and 
-JUnit4 will be used to fully test drive the code. 
+JUnit4 will be used to fully test-drive the code. 
 
 Acceptance Criteria
 -----
