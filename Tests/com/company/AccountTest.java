@@ -24,6 +24,14 @@ public class AccountTest {
         assertEquals(5, balance, 0);
     }
 
+    @DisplayName("User can withdraw money from account")
+    @Test
+    public void withdraw() {
+        account.deposit(10);
+        account.withdraw(2);
+        assertEquals(8, account.getBalance(), 0);
+    }
+
 
 
 }

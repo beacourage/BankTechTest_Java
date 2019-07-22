@@ -4,7 +4,6 @@
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Tests/com/company/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/Fizzbuzz.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
       </list>
     </option>
@@ -192,13 +191,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.deposit">
+  <component name="RunManager" selected="JUnit.AccountTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Account" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,53 +228,6 @@
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.AccountTest" />
       <option name="METHOD_NAME" value="deposit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzbuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Account" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.FizzbuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzbuzzTest.fizz_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Account" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.FizzbuzzTest" />
-      <option name="METHOD_NAME" value="fizz_12" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzbuzzTest.fizz_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Account" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.FizzbuzzTest" />
-      <option name="METHOD_NAME" value="fizz_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -315,18 +282,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FizzbuzzTest.fizz_3" />
-      <item itemvalue="JUnit.FizzbuzzTest.fizz_12" />
-      <item itemvalue="JUnit.FizzbuzzTest" />
       <item itemvalue="JUnit.AccountTest.deposit" />
+      <item itemvalue="JUnit.AccountTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.deposit" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FizzbuzzTest" />
-        <item itemvalue="JUnit.FizzbuzzTest.fizz_12" />
-        <item itemvalue="JUnit.FizzbuzzTest.fizz_3" />
       </list>
     </recent_temporary>
   </component>
@@ -346,20 +309,11 @@
       <workItem from="1563296416157" duration="395000" />
       <workItem from="1563296894102" duration="253000" />
       <workItem from="1563359049829" duration="5006000" />
-      <workItem from="1563788825999" duration="3842000" />
+      <workItem from="1563788825999" duration="4272000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 08m 10s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 13m 54s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 15m 13s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 16m 51s.xml">
       <configuration name="FizzbuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -381,9 +335,18 @@
     <history-entry file="AccountTest_deposit - 2019.07.22 at 12h 24m 14s.xml">
       <configuration name="AccountTest.deposit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountTest_deposit - 2019.07.22 at 12h 37m 37s.xml">
+      <configuration name="AccountTest.deposit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 12h 45m 32s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 12h 45m 44s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39478000" />
+    <option name="totallyTimeSpent" value="39908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -486,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -500,10 +456,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
