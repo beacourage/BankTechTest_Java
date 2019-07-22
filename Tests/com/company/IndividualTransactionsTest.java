@@ -37,7 +37,7 @@ public class IndividualTransactionsTest {
         assertEquals(10,debit);
     }
 
-    @DisplayName("Initizlised balance")
+    @DisplayName("Initialized balance")
     @Test
     public void balance() {
         int balance = transaction.getBalance();

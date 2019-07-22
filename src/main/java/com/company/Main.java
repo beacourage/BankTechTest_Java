@@ -8,6 +8,10 @@ public class Main {
 
         System.out.println(individualTransaction.getCredit());
         System.out.println(individualTransaction.getDate());
+
+
+
+
     }
 
 }
