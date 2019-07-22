@@ -32,6 +32,14 @@ public class AccountTest {
         assertEquals(8, account.getBalance(), 0);
     }
 
+    @DisplayName("Error thrown if trying to withdraw with insufficient funds")
+    @Test(expected = IllegalArgumentException.class)
+    public void withdraw_notFunds()  {
+        account.deposit(30);
+        account.withdraw(35);
+        fail("Should have thrown an illegal exception");
+    }
+
 
 
 }
