@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/com/company/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,17 +35,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
+        <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -84,9 +102,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/Fizzbuzz.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" />
       </list>
     </option>
   </component>
@@ -130,6 +150,32 @@
             <path>
               <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,8 +322,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.deposit" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AccountTest.deposit" />
       </list>
     </recent_temporary>
   </component>
@@ -297,29 +343,11 @@
       <workItem from="1563296416157" duration="395000" />
       <workItem from="1563296894102" duration="253000" />
       <workItem from="1563359049829" duration="5006000" />
-      <workItem from="1563788825999" duration="5136000" />
+      <workItem from="1563788825999" duration="6748000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 21m 20s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 40m 17s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 13h 54m 59s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzbuzzTest - 2019.07.17 at 14h 04m 10s.xml">
-      <configuration name="FizzbuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_deposit - 2019.07.22 at 12h 24m 14s.xml">
-      <configuration name="AccountTest.deposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_deposit - 2019.07.22 at 12h 37m 37s.xml">
-      <configuration name="AccountTest.deposit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest - 2019.07.22 at 12h 45m 32s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
@@ -332,9 +360,27 @@
     <history-entry file="AccountTest - 2019.07.22 at 15h 31m 56s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 33m 20s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 33m 39s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 33m 55s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 48m 10s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 51m 43s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.07.22 at 15h 59m 38s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40772000" />
+    <option name="totallyTimeSpent" value="42384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -345,7 +391,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24816626" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.1314181" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.24744377" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -368,7 +414,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" x="418" y="67" width="947" height="749" id="Run" order="9" visible="true" weight="0.33924204" />
+      <window_info active="true" anchor="right" x="418" y="67" width="947" height="749" id="Run" order="9" visible="true" weight="0.41625917" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,8 +476,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -439,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -451,10 +497,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
