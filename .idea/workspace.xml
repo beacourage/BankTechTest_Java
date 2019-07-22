@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="629">
+              <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="714">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" />
       </list>
     </option>
@@ -225,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
+  <component name="RunManager" selected="JUnit.IndividualTransactionsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Account" />
@@ -263,6 +263,21 @@
       <option name="MAIN_CLASS_NAME" value="com.company.AccountTest" />
       <option name="METHOD_NAME" value="deposit" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualTransactionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.IndividualTransactionsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,9 +333,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.AccountTest.deposit" />
       <item itemvalue="JUnit.AccountTest" />
+      <item itemvalue="JUnit.IndividualTransactionsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndividualTransactionsTest" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AccountTest.deposit" />
@@ -343,17 +360,11 @@
       <workItem from="1563296416157" duration="395000" />
       <workItem from="1563296894102" duration="253000" />
       <workItem from="1563359049829" duration="5006000" />
-      <workItem from="1563788825999" duration="6748000" />
+      <workItem from="1563788825999" duration="7565000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest - 2019.07.22 at 12h 45m 32s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.07.22 at 12h 45m 44s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountTest - 2019.07.22 at 15h 30m 03s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
@@ -378,9 +389,15 @@
     <history-entry file="AccountTest - 2019.07.22 at 15h 59m 38s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IndividualTransactionsTest - 2019.07.22 at 16h 12m 20s.xml">
+      <configuration name="IndividualTransactionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndividualTransactionsTest - 2019.07.22 at 16h 16m 13s.xml">
+      <configuration name="IndividualTransactionsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42384000" />
+    <option name="totallyTimeSpent" value="43201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -490,6 +507,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -499,22 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="629">
+          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="714">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>

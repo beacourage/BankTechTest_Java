@@ -32,3 +32,7 @@ public class IndividualTransactions {
 
 
 }
+
+
+//We initialize the characteristics/fields through(when) creating constructors.
+//Executed the constructor and the fields have been initialized.
