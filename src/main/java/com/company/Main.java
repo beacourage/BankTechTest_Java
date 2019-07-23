@@ -23,11 +23,13 @@ public class Main {
         Object oneTransaction = PrintStatement.getTransactions().get(0);
 
         System.out.println(oneTransaction);
-
         System.out.println(PrintStatement.getTransactions().size());
 
-         PrintStatement.printTransactions();
+         String answer = PrintStatement.printTransactions();
+         System.out.println(answer);
 
+
+//
 //        System.out.println(PrintStatement.printTransactions());
 
 

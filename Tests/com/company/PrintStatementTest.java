@@ -56,6 +56,19 @@ public class PrintStatementTest {
         assertEquals(18, secondelement.getBalance());
     }
 
+    @Test
+    public void printStatement() {
+        Account account = new Account();
+        account.deposit(20);
+        account.withdraw(2);
+        account.deposit(30);
+        account.deposit(40);
+        String expected = "The date is 2019/07/23. You deposited 20. You withdrew 0. and total balance is 20.\n" +
+                "The date is 2019/07/23. You deposited 0. You withdrew 2. and total balance is 18.\n" +
+                "The date is 2019/07/23. You deposited 30. You withdrew 0. and total balance is 48.\n" +
+                "The date is 2019/07/23. You deposited 40. You withdrew 0. and total balance is 88.\n";
+         assertEquals(expected, statement.printTransactions());
+    }
 
 
 
