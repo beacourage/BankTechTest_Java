@@ -15,6 +15,7 @@ public class PrintStatement {
     }
 
     public static void printTransactions() {
+
         for (int i = 0; i < getTransactions().size(); i++) {
 //           Object individualTransaction = getTransactions().get(i);
             IndividualTransactions account = (IndividualTransactions) getTransactions().get(i);

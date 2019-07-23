@@ -26,7 +26,10 @@ public class Main {
 
         System.out.println(PrintStatement.getTransactions().size());
 
-        PrintStatement.printTransactions();
+         PrintStatement.printTransactions();
+
+//        System.out.println(PrintStatement.printTransactions());
+
 
 
 

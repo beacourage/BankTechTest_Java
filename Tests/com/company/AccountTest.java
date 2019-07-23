@@ -52,12 +52,6 @@ public class AccountTest {
 //
 
 //    }
-//   a stub you have already written with predetermined behavior. methods are stubbed out with set responses.
-//allow(subject.printstatement).to receive(:transactions).and_return([individualTransactions])
-
-//    A mock is not setup in a predetermined way
-//let(:individualTransactions) { double('individual transaction mock', :debit => 10)}
-
 
 
 }
