@@ -28,4 +28,14 @@ public class PrintStatementTest {
         assertEquals("firstTransaction", firstElement);
     }
 
+    @DisplayName("Can print the bank statement")
+    @Test
+    public void printStatement() {
+        Account account = new Account();
+        account.deposit(20);
+        account.withdraw(2);
+        IndividualTransactions firstelement = (IndividualTransactions) statement.getTransactions().get(0);
+        assertEquals(20, firstelement.getCredit());
+    }
+
 }

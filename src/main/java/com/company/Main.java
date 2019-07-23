@@ -10,6 +10,34 @@ public class Main {
         System.out.println(individualTransaction.getDate());
 
 
+        Account account = new Account();
+
+        account.deposit(20);
+        account.withdraw(2);
+        account.deposit(30);
+        account.deposit(40);
+
+
+        System.out.println(PrintStatement.getTransactions());
+
+        Object oneTransaction = PrintStatement.getTransactions().get(0);
+
+        System.out.println(oneTransaction);
+
+        System.out.println(PrintStatement.getTransactions().size());
+
+        PrintStatement.printTransactions();
+
+
+
+
+        IndividualTransactions transaction = new IndividualTransactions("date", 20, 30, 100);
+
+        System.out.println(transaction);
+
+
+
+
 
 
     }
