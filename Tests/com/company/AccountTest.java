@@ -40,6 +40,15 @@ public class AccountTest {
         fail("Should have thrown an illegal exception");
     }
 
+    @DisplayName("Transactions arraylist is initially empty")
+    @Test
+    public void initialTransactions() {
+        int size = PrintStatement.getTransactions().size();
+        assertEquals(0, size);
+    }
+
 
 
 }
+
+

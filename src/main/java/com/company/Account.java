@@ -11,7 +11,6 @@ public class Account {
     private DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
     private Date currentDate = new Date();
 
-
     public Account() {
         this.balance = 0;
         this.date = dateFormat.format(currentDate);
@@ -19,6 +18,8 @@ public class Account {
 
     public void deposit(int amount) {
         this.balance += amount;
+        PrintStatement.getTransactions().add(new IndividualTransactions(this.date, amount, 0, this.balance));
+
     }
 
     public void withdraw(int amount) {
@@ -26,6 +27,7 @@ public class Account {
             throw new IllegalArgumentException();
         }
         this.balance -= amount;
+        PrintStatement.getTransactions().add(new IndividualTransactions(this.date, 0, amount, this.balance));
     }
 
 
