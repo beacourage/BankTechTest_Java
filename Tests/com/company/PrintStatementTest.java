@@ -56,6 +56,7 @@ public class PrintStatementTest {
         assertEquals(18, secondelement.getBalance());
     }
 
+    @DisplayName("Feature Test")
     @Test
     public void printStatement() {
         Account account = new Account();
