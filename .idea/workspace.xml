@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Account.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/PrintStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/PrintStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/PrintStatementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/PrintStatementTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,64 +36,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/com/company/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -98,28 +46,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/BankAccountTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/BankAccount.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/BankAccountTestParameterized.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/BankAccountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/BankAccount.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/FizzbuzzTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Fizzbuzz.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Account.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/AccountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -134,79 +60,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Fizzbuzz" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="340" />
-    <option name="height" value="1050" />
-  </component>
+  <component name="ProjectId" id="1OSmG5mJRsB4ylxMmgZ9xV9seEz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankTechTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankTechTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -247,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PrintStatementTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Account" />
@@ -319,53 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Account" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Account" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.AccountTest.deposit" />
@@ -375,8 +183,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PrintStatementTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.IndividualTransactionsTest" />
         <item itemvalue="JUnit.AccountTest.deposit" />
@@ -403,191 +211,22 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 26m 27s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 26m 36s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 27m 02s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 27m 22s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 28m 06s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 29m 22s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 29m 52s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 30m 32s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 30m 55s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintStatementTest - 2019.07.23 at 17h 31m 06s.xml">
-      <configuration name="PrintStatementTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="57992000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1314181" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.24744377" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" weight="0.29462102" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" x="936" y="123" width="715" height="495" id="Run" order="9" weight="0.2787286" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/BankAccountTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="261" column="5" lean-forward="true" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/BankAccountTestParameterized.java" />
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/BankAccountTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/rfv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/egrfd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/FizzbuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Fizzbuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Account.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/IndividualTransactionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="31" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/IndividualTransactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/PrintStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/PrintStatementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

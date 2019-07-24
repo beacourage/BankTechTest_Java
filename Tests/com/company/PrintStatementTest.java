@@ -60,15 +60,19 @@ public class PrintStatementTest {
     @Test
     public void printStatement() {
         Account account = new Account();
-        account.deposit(20);
-        account.withdraw(2);
-        account.deposit(30);
-        account.deposit(40);
-        String expected = "The date is 2019/07/23. You deposited 20. You withdrew 0. and total balance is 20.\n" +
-                "The date is 2019/07/23. You deposited 0. You withdrew 2. and total balance is 18.\n" +
-                "The date is 2019/07/23. You deposited 30. You withdrew 0. and total balance is 48.\n" +
-                "The date is 2019/07/23. You deposited 40. You withdrew 0. and total balance is 88.\n";
+        account.deposit(2);
+        account.withdraw(1);
+        account.deposit(3);
+        account.deposit(9);
+        String expected = "date       || credit || debit || balance\n" +
+                "2019/07/24 || 2     ||  0     || 2\n" +
+                "2019/07/24 || 0     ||  1     || 1\n" +
+                "2019/07/24 || 3     ||  0     || 4\n" +
+                "2019/07/24 || 9     ||  0     || 13\n";
+
          assertEquals(expected, statement.printTransactions());
+
+
     }
 
 

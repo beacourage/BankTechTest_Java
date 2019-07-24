@@ -12,10 +12,10 @@ public class Main {
 
         Account account = new Account();
 
-        account.deposit(20);
-        account.withdraw(2);
-        account.deposit(30);
-        account.deposit(40);
+        account.deposit(2);
+        account.withdraw(1);
+        account.deposit(3);
+        account.deposit(9);
 
 
         System.out.println(PrintStatement.getTransactions());

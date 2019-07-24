@@ -15,12 +15,12 @@ public class PrintStatement {
     }
 
     public static String printTransactions() {
-        String statement = "";
+        String statement ="date       || credit || debit || balance\n";
         for (int i = 0; i < getTransactions().size(); i++) {
             Object individualTransaction = getTransactions().get(i);
             IndividualTransactions account = (IndividualTransactions) individualTransaction;
 //            System.out.println("The date is " + account.getDate() + ". You deposited " + account.getCredit() + ". You withdrew " + account.getDebit() + ". and total balance is " + account.getBalance());
-       statement += "The date is " + account.getDate() + ". You deposited " + account.getCredit() + ". You withdrew " + account.getDebit() + ". and total balance is " + account.getBalance() + ".\n" ;
+       statement += account.getDate() + " || " + account.getCredit() + "     ||  " + account.getDebit() + "     || " + account.getBalance() + "\n" ;
         }
         return statement;
     }
